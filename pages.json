@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/tabbar/base/base",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/advanced/advanced",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/demo/demo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/base/base",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/base/runAndCenter",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/base/animationMode",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/base/changeBackground",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/base/duration",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/advanced/itemBackground",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/advanced/getQuery",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/demo/line3_demo/line3_demo",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "QS-tabs",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#DD524D",
+		"list": [
+			{
+				"pagePath":"pages/tabbar/base/base",
+				"text":"基础"
+			},
+			{
+				"pagePath":"pages/tabbar/advanced/advanced",
+				"text":"进阶"
+			},
+			{
+				"pagePath":"pages/tabbar/demo/demo",
+				"text":"示例"
+			}
+		]
+	}
+}
